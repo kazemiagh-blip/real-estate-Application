@@ -1,0 +1,581 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "name": "Rashid Al Maktoum Advisory",
+      "email": "admin@primeestate.ae",
+      "phone": "+971 4 388 9100",
+      "role": "admin",
+      "active": true,
+      "verified": true,
+      "favorites": [],
+      "savedSearches": [],
+      "createdAt": "2026-05-14T09:00:00.000Z",
+      "passwordHash": "9509b62bea0cab0ec05d6becf0fdb6cd8f68c2317542a07a3fc1399502de30523610a99d841a1f5312f6be748b3a055c413a5624223b5fb0edf1c1d8aedb143a",
+      "passwordSalt": "8818db831e71724175c5f3edfdd3a9b9"
+    },
+    {
+      "id": "usr-agent-layla",
+      "name": "Layla Al Khouri",
+      "email": "layla.alkhouri@primeestate.ae",
+      "phone": "+971 50 482 7710",
+      "whatsapp": "971504827710",
+      "role": "agent",
+      "avatar": "/src/assets/images/agent_layla_portrait_1794929839340.jpg",
+      "active": true,
+      "verified": true,
+      "agencyTitle": "Senior Private Client Director",
+      "reraId": "BRN-44891",
+      "bio": "Specializing in Palm Jumeirah beachfront villas and Downtown Dubai signature penthouses with over AED 1.4B in closed private transactions.",
+      "languages": [
+        "Arabic",
+        "English",
+        "French"
+      ],
+      "specialty": "Ultra-Prime Waterfront & Penthouses",
+      "favorites": [],
+      "savedSearches": [],
+      "createdAt": "2026-06-03T09:00:00.000Z",
+      "passwordHash": "aea9cb92bc0716a71d3a2049a856672096bf47da266b278a43c6145f747dc8b9e17a3f5f42e9a847c4df1a213b9491b679bc1ebb8890659a5691cb18ec08a5a5",
+      "passwordSalt": "1a07d85008387fa06887cccc96acebbb"
+    },
+    {
+      "id": "usr-agent-tariq",
+      "name": "Tariq Al Hashimi",
+      "email": "tariq.alhashimi@primeestate.ae",
+      "phone": "+971 52 914 3308",
+      "whatsapp": "971529143308",
+      "role": "agent",
+      "avatar": "/src/assets/images/agent_tariq_portrait_1794929839233.jpg",
+      "active": true,
+      "verified": true,
+      "agencyTitle": "Head of Commercial & Master Communities",
+      "reraId": "BRN-39120",
+      "bio": "Advising institutional investors, family offices, and corporate tenants across DIFC, Business Bay, Dubai Hills Estate, and Saadiyat Island.",
+      "languages": [
+        "English",
+        "Arabic"
+      ],
+      "specialty": "Commercial, DIFC Offices & Villas",
+      "favorites": [],
+      "savedSearches": [],
+      "createdAt": "2026-06-13T09:00:00.000Z",
+      "passwordHash": "0a3f4c287ed6602b4e4e9cd34f698d9be9f66e09eb530787d08219b648f6193f811c1c4eb01a9d0e7d414c2dad7b3360747ea38c5631a823ca8af5d7f9c0f818",
+      "passwordSalt": "ea278f664e97925c3d45b87c7365cdfd"
+    },
+    {
+      "id": "usr-cust-nadia",
+      "name": "Nadia Mansoor",
+      "email": "nadia.mansoor@example.ae",
+      "phone": "+971 55 729 1840",
+      "role": "customer",
+      "active": true,
+      "verified": true,
+      "favorites": [
+        "prop-palm-villa-1",
+        "prop-downtown-ph-2"
+      ],
+      "savedSearches": [
+        {
+          "id": "ss-1",
+          "name": "Palm & Downtown 4+ Bed Buy",
+          "filters": {
+            "purpose": "Buy",
+            "bedrooms": "4",
+            "sort": "price_desc"
+          },
+          "createdAt": "2026-10-29T09:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-09-26T09:00:00.000Z",
+      "passwordHash": "2f835aa2fc35e05760a9f452d1dde40ae9c546eabde12f7bfbef17372a9c234195ab31bbdbbecdbe9066ae30c40da8a80cc1a5e1bd538cf87d6fb45f793281b0",
+      "passwordSalt": "89b866fc5eaee76b9914b6cb5ce2229c"
+    }
+  ],
+  "properties": [
+    {
+      "id": "prop-palm-villa-1",
+      "referenceNumber": "PE-DXB-2026-101",
+      "reraPermit": "7129485102",
+      "title": "Signature Frond G Beachfront Villa with Private Horizon Pool",
+      "purpose": "Buy",
+      "type": "Villa",
+      "location": "Palm Jumeirah",
+      "community": "Frond G, Palm Jumeirah",
+      "emirate": "Dubai",
+      "address": "Frond G, Palm Jumeirah, Dubai, UAE",
+      "coordinates": {
+        "lat": 25.1189,
+        "lng": 55.1342
+      },
+      "priceAed": 34500000,
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "sizeSqFt": 11400,
+      "furnished": "Furnished",
+      "completion": "Ready",
+      "status": "active",
+      "featured": true,
+      "description": "Positioned on one of the most sought-after private fronds of Palm Jumeirah, this newly completed architectural villa pairs travertine limestone facades with uninterrupted views toward the Dubai Marina skyline. Designed for indoor-outdoor coastal living, the residence features double-height formal reception halls, a Gaggenau show kitchen, private cinema, staff quarters, and 95 feet of private sandy beachfront.",
+      "features": [
+        "Private Beachfront Access",
+        "Temperature-Controlled Infinity Pool",
+        "Gaggenau Show & Service Kitchens",
+        "Private Cinema & Wine Room",
+        "Smart Home Automation (KNX)",
+        "Covered 4-Car Air-Conditioned Garage",
+        "Maid & Driver Quarters",
+        "Rooftop Sunset Lounge"
+      ],
+      "images": [
+        "/src/assets/images/prop_palm_villa_1794929836368.jpg",
+        "/src/assets/images/hero_dubai_penthouse_1794929835668.jpg",
+        "/src/assets/images/prop_downtown_penthouse_1794929837008.jpg"
+      ],
+      "agentId": "usr-agent-layla",
+      "views": 1241,
+      "inquiriesCount": 18,
+      "createdAt": "2026-11-06T09:00:00.000Z",
+      "updatedAt": "2026-11-08T09:00:00.000Z"
+    },
+    {
+      "id": "prop-downtown-ph-2",
+      "referenceNumber": "PE-DXB-2026-102",
+      "reraPermit": "7129485219",
+      "title": "Skyline Full-Floor Penthouse Overlooking Burj Khalifa & Fountain",
+      "purpose": "Buy",
+      "type": "Penthouse",
+      "location": "Downtown Dubai",
+      "community": "Boulevard Residences, Downtown Dubai",
+      "emirate": "Dubai",
+      "address": "Mohammed Bin Rashid Boulevard, Downtown Dubai, UAE",
+      "coordinates": {
+        "lat": 25.1972,
+        "lng": 55.2744
+      },
+      "priceAed": 26800000,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "sizeSqFt": 6850,
+      "furnished": "Furnished",
+      "completion": "Ready",
+      "status": "active",
+      "featured": true,
+      "description": "Spanning an entire upper floor in Downtown Dubai, this bespoke penthouse frames panoramic dusk views of the Burj Khalifa and Dubai Fountain through 4-meter acoustic curtain glazing. Appointed in book-matched Italian travertine, brushed bronze hardware, and custom Minotti upholstery, with private elevator lobby access and expansive wrap-around terraces.",
+      "features": [
+        "Private Elevator Lobby",
+        "Full Burj Khalifa & Fountain View",
+        "Wrap-Around Travertine Terrace",
+        "Private Plunge Pool",
+        "24/7 Valet & Concierge",
+        "Private Gym & Spa Suite",
+        "3 Reserved Podium Parking Bays"
+      ],
+      "images": [
+        "/src/assets/images/prop_downtown_penthouse_1794929837008.jpg",
+        "/src/assets/images/hero_dubai_penthouse_1794929835668.jpg",
+        "/src/assets/images/prop_marina_apartment_1794929838106.jpg"
+      ],
+      "agentId": "usr-agent-layla",
+      "views": 980,
+      "inquiriesCount": 14,
+      "createdAt": "2026-11-04T09:00:00.000Z",
+      "updatedAt": "2026-11-09T09:00:00.000Z"
+    },
+    {
+      "id": "prop-marina-apt-3",
+      "referenceNumber": "PE-DXB-2026-103",
+      "reraPermit": "7129485304",
+      "title": "Waterfront 3-Bedroom Marina Residence with Yacht Berth Views",
+      "purpose": "Rent",
+      "type": "Apartment",
+      "location": "Dubai Marina",
+      "community": "Marina Gate, Dubai Marina",
+      "emirate": "Dubai",
+      "address": "Marina Walk, Dubai Marina, Dubai, UAE",
+      "coordinates": {
+        "lat": 25.0865,
+        "lng": 55.1456
+      },
+      "priceAed": 360000,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "sizeSqFt": 2450,
+      "furnished": "Furnished",
+      "completion": "Ready",
+      "status": "active",
+      "featured": true,
+      "description": "Bright corner residence situated directly along Marina Walk with sweeping views across the superyacht basin. Features warm European oak wide-plank flooring, floor-to-ceiling sliding doors opening onto a deep entertaining terrace, en-suite bedrooms with built-in wardrobes, and direct access to resort-grade lap pools and health club.",
+      "features": [
+        "Direct Marina Walk Promenade Access",
+        "Infinity Lap Pool & Squash Courts",
+        "Fully Furnished Turnkey Interior",
+        "Maid Room with En-Suite",
+        "2 Covered Parking Spaces",
+        "Chiller Free"
+      ],
+      "images": [
+        "/src/assets/images/prop_marina_apartment_1794929838106.jpg",
+        "/src/assets/images/prop_downtown_penthouse_1794929837008.jpg"
+      ],
+      "agentId": "usr-agent-layla",
+      "views": 745,
+      "inquiriesCount": 11,
+      "createdAt": "2026-11-02T09:00:00.000Z",
+      "updatedAt": "2026-11-07T09:00:00.000Z"
+    },
+    {
+      "id": "prop-hills-th-4",
+      "referenceNumber": "PE-DXB-2026-104",
+      "reraPermit": "7129485490",
+      "title": "Corner Park-Facing 4-Bedroom Limestone Townhouse",
+      "purpose": "Buy",
+      "type": "Townhouse",
+      "location": "Dubai Hills Estate",
+      "community": "Maple & Sidra Park Enclave, Dubai Hills Estate",
+      "emirate": "Dubai",
+      "address": "Dubai Hills Estate, Umm Suqeim St, Dubai, UAE",
+      "coordinates": {
+        "lat": 25.1066,
+        "lng": 55.2452
+      },
+      "priceAed": 6950000,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "sizeSqFt": 3680,
+      "furnished": "Unfurnished",
+      "completion": "Ready",
+      "status": "active",
+      "featured": false,
+      "description": "Located on a quiet single-row corner plot steps from Dubai Hills Central Park and Championship Golf Course, this custom-upgraded townhouse offers a shaded timber pergola lounge, private landscaped garden with plunge pool, open-plan marble kitchen, and generous natural light across all levels.",
+      "features": [
+        "Single-Row Corner Plot",
+        "Landscaped Private Garden & Plunge Pool",
+        "Minutes to Dubai Hills Golf Club",
+        "Walkable to International Schools & Mall",
+        "Covered 2-Car Driveway"
+      ],
+      "images": [
+        "/src/assets/images/prop_hills_townhouse_1794929838495.jpg",
+        "/src/assets/images/prop_palm_villa_1794929836368.jpg"
+      ],
+      "agentId": "usr-agent-tariq",
+      "views": 612,
+      "inquiriesCount": 9,
+      "createdAt": "2026-11-01T09:00:00.000Z",
+      "updatedAt": "2026-11-06T09:00:00.000Z"
+    },
+    {
+      "id": "prop-difc-office-5",
+      "referenceNumber": "PE-DXB-2026-105",
+      "reraPermit": "7129485612",
+      "title": "Fitted Grade-A Executive Office Suite in Gate Village",
+      "purpose": "Rent",
+      "type": "Office",
+      "location": "DIFC",
+      "community": "Gate Village, DIFC",
+      "emirate": "Dubai",
+      "address": "Gate Village Building 8, DIFC, Dubai, UAE",
+      "coordinates": {
+        "lat": 25.2116,
+        "lng": 55.2815
+      },
+      "priceAed": 920000,
+      "bedrooms": 0,
+      "bathrooms": 3,
+      "sizeSqFt": 3200,
+      "furnished": "Furnished",
+      "completion": "Ready",
+      "status": "active",
+      "featured": true,
+      "description": "Turnkey DIFC-licensed executive headquarters fitted to institutional banking and family-office standards. Includes a 12-seat walnut boardroom overlooking Sheikh Zayed Road, 4 private partner offices with double-glazed acoustic partitions, open analyst workstations, private pantry, and 6 dedicated basement parking allocations.",
+      "features": [
+        "DIFC Free Zone Jurisdiction",
+        "Acoustic Glass Partner Offices",
+        "12-Seat Executive Boardroom",
+        "Server Room & Biometric Access",
+        "6 Reserved Basement Parking Bays",
+        "Direct Gate Avenue Retail Link"
+      ],
+      "images": [
+        "/src/assets/images/prop_difc_office_1794929837691.jpg",
+        "/src/assets/images/prop_downtown_penthouse_1794929837008.jpg"
+      ],
+      "agentId": "usr-agent-tariq",
+      "views": 490,
+      "inquiriesCount": 7,
+      "createdAt": "2026-10-30T09:00:00.000Z",
+      "updatedAt": "2026-11-05T09:00:00.000Z"
+    },
+    {
+      "id": "prop-saadiyat-land-6",
+      "referenceNumber": "PE-AUH-2026-106",
+      "reraPermit": "2026008192",
+      "title": "Freehold Sea-View Residential Land Plot near Cultural District",
+      "purpose": "Buy",
+      "type": "Land",
+      "location": "Saadiyat Island",
+      "community": "Saadiyat Reserve, Abu Dhabi",
+      "emirate": "Abu Dhabi",
+      "address": "Saadiyat Island Cultural District, Abu Dhabi, UAE",
+      "coordinates": {
+        "lat": 24.5393,
+        "lng": 54.4264
+      },
+      "priceAed": 14200000,
+      "bedrooms": 0,
+      "bathrooms": 0,
+      "sizeSqFt": 16500,
+      "furnished": "Unfurnished",
+      "completion": "Ready",
+      "status": "active",
+      "featured": false,
+      "description": "Rare freehold coastal plot eligible for all nationalities on Saadiyat Island, minutes from the Louvre Abu Dhabi and pristine white-sand beaches. Approved for G+2 bespoke mansion construction with 65% allowable GFA coverage and all primary infrastructure utilities connected to plot boundary.",
+      "features": [
+        "100% Freehold for All Nationalities",
+        "Approved G+2 Custom Villa Zoning",
+        "Minutes from Louvre Abu Dhabi & Soul Beach",
+        "Full Infrastructure Ready"
+      ],
+      "images": [
+        "/src/assets/images/prop_palm_villa_1794929836368.jpg",
+        "/src/assets/images/prop_hills_townhouse_1794929838495.jpg"
+      ],
+      "agentId": "usr-agent-tariq",
+      "views": 318,
+      "inquiriesCount": 5,
+      "createdAt": "2026-10-27T09:00:00.000Z",
+      "updatedAt": "2026-11-04T09:00:00.000Z"
+    },
+    {
+      "id": "prop-bbay-comm-7",
+      "referenceNumber": "PE-DXB-2026-107",
+      "reraPermit": "7129485884",
+      "title": "Half-Floor Canal-Facing Commercial Asset in Business Bay",
+      "purpose": "Buy",
+      "type": "Commercial",
+      "location": "Business Bay",
+      "community": "Dubai Water Canal, Business Bay",
+      "emirate": "Dubai",
+      "address": "Marasi Drive, Business Bay, Dubai, UAE",
+      "coordinates": {
+        "lat": 25.1862,
+        "lng": 55.2747
+      },
+      "priceAed": 16400000,
+      "bedrooms": 0,
+      "bathrooms": 4,
+      "sizeSqFt": 5900,
+      "furnished": "Unfurnished",
+      "completion": "Ready",
+      "status": "active",
+      "featured": false,
+      "description": "High-yield commercial half-floor asset overlooking the Dubai Water Canal and Downtown skyline. Shell-and-core flexibility with floor-to-ceiling low-emissivity glazing, dedicated executive lift bank, and strong projected net yield of 7.8% in one of Dubai’s fastest-appreciating commercial corridors.",
+      "features": [
+        "7.8% Projected Net Commercial Yield",
+        "12 Allocated Covered Parking Spaces",
+        "Dubai Water Canal Panoramic Views",
+        "Dedicated VIP Lift Lobby"
+      ],
+      "images": [
+        "/src/assets/images/prop_difc_office_1794929837691.jpg",
+        "/src/assets/images/hero_dubai_penthouse_1794929835668.jpg"
+      ],
+      "agentId": "usr-agent-tariq",
+      "views": 285,
+      "inquiriesCount": 4,
+      "createdAt": "2026-10-25T09:00:00.000Z",
+      "updatedAt": "2026-11-03T09:00:00.000Z"
+    },
+    {
+      "id": "prop-creek-offplan-8",
+      "referenceNumber": "PE-DXB-2026-108",
+      "reraPermit": "7129485991",
+      "title": "Off-Plan Sky Lagoon 2-Bedroom Residence with 60/40 Payment Plan",
+      "purpose": "Buy",
+      "type": "Apartment",
+      "location": "Dubai Creek Harbour",
+      "community": "Creek Beach & Island, Dubai Creek Harbour",
+      "emirate": "Dubai",
+      "address": "Dubai Creek Harbour, Ras Al Khor, Dubai, UAE",
+      "coordinates": {
+        "lat": 25.2051,
+        "lng": 55.3446
+      },
+      "priceAed": 3450000,
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "sizeSqFt": 1580,
+      "furnished": "Unfurnished",
+      "completion": "Off-Plan",
+      "status": "active",
+      "featured": false,
+      "description": "Thoughtfully proportioned 2-bedroom off-plan residence in Dubai Creek Harbour overlooking the Central Park and Creek Marina. Offers an attractive 60/40 post-handover payment structure, private balcony, and anticipated Q4 2027 completion by a tier-one master developer.",
+      "features": [
+        "60/40 Developer Payment Plan",
+        "Golden Visa Eligible Investment",
+        "Creek Marina & Skyline View",
+        "Private Lagoon & Yacht Club Access"
+      ],
+      "images": [
+        "/src/assets/images/prop_marina_apartment_1794929838106.jpg",
+        "/src/assets/images/hero_dubai_penthouse_1794929835668.jpg"
+      ],
+      "agentId": "usr-agent-layla",
+      "views": 540,
+      "inquiriesCount": 8,
+      "createdAt": "2026-11-07T09:00:00.000Z",
+      "updatedAt": "2026-11-09T09:00:00.000Z"
+    },
+    {
+      "id": "prop-jge-pending-9",
+      "referenceNumber": "PE-DXB-2026-109",
+      "reraPermit": "7129486104",
+      "title": "Earth Course Fairway 5-Bedroom Villa (Awaiting Review)",
+      "purpose": "Buy",
+      "type": "Villa",
+      "location": "Jumeirah Golf Estates",
+      "community": "Earth Course, Jumeirah Golf Estates",
+      "emirate": "Dubai",
+      "address": "Jumeirah Golf Estates, Dubai, UAE",
+      "coordinates": {
+        "lat": 25.0195,
+        "lng": 55.2028
+      },
+      "priceAed": 19200000,
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "sizeSqFt": 8400,
+      "furnished": "Furnished",
+      "completion": "Ready",
+      "status": "pending",
+      "featured": false,
+      "description": "Elevated fairway mansion overlooking the championship Earth Course 16th green. Newly submitted by agent for compliance verification and publishing.",
+      "features": [
+        "Direct Golf Course Frontage",
+        "Basement Cinema & Spa",
+        "Private Infinity Pool"
+      ],
+      "images": [
+        "/src/assets/images/prop_hills_townhouse_1794929838495.jpg",
+        "/src/assets/images/prop_palm_villa_1794929836368.jpg"
+      ],
+      "agentId": "usr-agent-tariq",
+      "views": 12,
+      "inquiriesCount": 0,
+      "createdAt": "2026-11-09T09:00:00.000Z",
+      "updatedAt": "2026-11-09T09:00:00.000Z"
+    },
+    {
+      "id": "prop-downtown-sold-10",
+      "referenceNumber": "PE-DXB-2026-094",
+      "reraPermit": "7129484002",
+      "title": "Opera District 3-Bedroom Duplex Residence",
+      "purpose": "Buy",
+      "type": "Apartment",
+      "location": "Downtown Dubai",
+      "community": "Opera District, Downtown Dubai",
+      "emirate": "Dubai",
+      "address": "Opera Grand, Downtown Dubai, UAE",
+      "coordinates": {
+        "lat": 25.1932,
+        "lng": 55.2721
+      },
+      "priceAed": 11800000,
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "sizeSqFt": 3340,
+      "furnished": "Furnished",
+      "completion": "Ready",
+      "status": "sold",
+      "featured": false,
+      "description": "Recently closed private sale in the Opera District featuring double-height living volume and direct views of Dubai Opera.",
+      "features": [
+        "Burj & Opera Views",
+        "Concierge Valet",
+        "Double-Height Salon"
+      ],
+      "images": [
+        "/src/assets/images/prop_downtown_penthouse_1794929837008.jpg"
+      ],
+      "agentId": "usr-agent-layla",
+      "views": 1410,
+      "inquiriesCount": 22,
+      "createdAt": "2026-10-01T09:00:00.000Z",
+      "updatedAt": "2026-10-31T09:00:00.000Z"
+    }
+  ],
+  "inquiries": [
+    {
+      "id": "inq-1",
+      "type": "property_inquiry",
+      "propertyId": "prop-palm-villa-1",
+      "propertyTitle": "Signature Frond G Beachfront Villa with Private Horizon Pool",
+      "propertyRef": "PE-DXB-2026-101",
+      "agentId": "usr-agent-layla",
+      "customerId": "usr-cust-nadia",
+      "name": "Nadia Mansoor",
+      "email": "nadia.mansoor@example.ae",
+      "phone": "+971 55 729 1840",
+      "message": "Could you please share the floor plans and confirm whether the bespoke furniture package is included in the asking price?",
+      "status": "contacted",
+      "agentNote": "Sent full architectural dossier and furniture inventory via WhatsApp.",
+      "createdAt": "2026-11-05T09:00:00.000Z",
+      "updatedAt": "2026-11-06T09:00:00.000Z"
+    },
+    {
+      "id": "inq-2",
+      "type": "sell_valuation",
+      "agentId": "usr-agent-tariq",
+      "name": "Omar Al Suwaidi",
+      "email": "omar.alsuwaidi@example.ae",
+      "phone": "+971 50 319 8821",
+      "message": "Seeking an off-market valuation for a 5-bedroom custom villa in Emirates Hills Sector E.",
+      "sellDetails": {
+        "propertyType": "Villa",
+        "location": "Emirates Hills",
+        "purpose": "Buy",
+        "expectedPriceAed": 42000000,
+        "sizeSqFt": 13500
+      },
+      "status": "new",
+      "createdAt": "2026-11-08T09:00:00.000Z",
+      "updatedAt": "2026-11-08T09:00:00.000Z"
+    }
+  ],
+  "viewings": [
+    {
+      "id": "view-1",
+      "propertyId": "prop-downtown-ph-2",
+      "propertyTitle": "Skyline Full-Floor Penthouse Overlooking Burj Khalifa & Fountain",
+      "propertyLocation": "Downtown Dubai",
+      "propertyRef": "PE-DXB-2026-102",
+      "propertyImage": "/src/assets/images/prop_downtown_penthouse_1794929837008.jpg",
+      "agentId": "usr-agent-layla",
+      "agentName": "Layla Al Khouri",
+      "customerId": "usr-cust-nadia",
+      "name": "Nadia Mansoor",
+      "email": "nadia.mansoor@example.ae",
+      "phone": "+971 55 729 1840",
+      "preferredDate": "2026-11-22",
+      "preferredTime": "17:00",
+      "mode": "In-Person",
+      "notes": "Would love to see the sunset lighting and fountain view at dusk.",
+      "status": "confirmed",
+      "agentNote": "Confirmed valet registration at Boulevard Plaza entrance.",
+      "createdAt": "2026-11-07T09:00:00.000Z",
+      "updatedAt": "2026-11-08T09:00:00.000Z"
+    }
+  ],
+  "siteContent": {
+    "heroHeadline": "Architectural Residences Across Dubai & the Emirates",
+    "heroSubheadline": "Private advisory for waterfront villas, trophy penthouses, and institutional commercial real estate across the UAE.",
+    "featuredBannerTitle": "Curated Portfolio · Palm Jumeirah, Downtown Dubai & DIFC",
+    "marketBrief": "Prime Dubai luxury transactions rose 24% year-on-year in 2026, led by Palm Jumeirah, Downtown Dubai, and DIFC Grade-A commercial demand.",
+    "companyPhone": "+971 4 388 9100",
+    "companyWhatsapp": "971504827710",
+    "companyEmail": "advisory@primeestate.ae",
+    "officeAddress": "Suite 2404, Boulevard Plaza Tower 1, Downtown Dubai, UAE",
+    "reraBrokerageId": "ORN-28419"
+  }
+}

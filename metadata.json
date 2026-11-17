@@ -1,0 +1,6 @@
+{
+  "name": "Prime Estate",
+  "description": "Luxury residential and commercial real estate platform for Dubai and the United Arab Emirates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
